@@ -27,8 +27,8 @@
 
 | Etapa         | Atividades |
 |  :----:   | ----------- |
-| ETAPA 1         |[Documentação de Contexto](docs/context.md) <br> |
-| ETAPA 2         |[Processo de Coleta de dados](docs/template.md) <br> [Arquivos utilizados](docs/template.md) <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
+| ETAPA 1         |[Documentação de Contexto](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md) <br> |
+| ETAPA 2         |[Processo de Coleta de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md) <br> [Arquivos utilizados]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md)) <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
 | ETAPA 3         |[Pré-processamento de dados]() |
 | ETAPA 4        |[Aprendizagem de máquina]() |
 | ETAPA 5         | [Análise dos resultados]() |
