@@ -1,5 +1,5 @@
 
-# Machine Learning para previsão de preços de ativos mobiliários utilizando o BigQuery
+# Machine Learning para previsão de preços de ativos imobiliários utilizando o BigQuery
 
 `CURSO: Banco de dados`
 
@@ -46,7 +46,7 @@
  # Contexto
  
   Atualmente existe um conjunto de dados públicos dentro deste tema,contendo informações de preços de venda e caracteristicas de casas americanas nos últimos anos ,disponibilizado na plataforma Kaggle.
-  Sabe-se que o preço se um ativo mobiliario é determinado por caractéristicas como área,quantidade de comodos,tipo de comodos,tipo de área em que ele está localizado entre outros fatores mensuráveis/classificavéis. O conjunto de dados disponibilizado pelo Kaggle apresenta grande parte das variáveis que sabe-se compõe o preço de venda de uma residencia.
+  Sabe-se que o preço se um ativo imobiliario é determinado por caractéristicas como área,quantidade de comodos,tipo de comodos,tipo de área em que ele está localizado entre outros fatores mensuráveis/classificavéis. O conjunto de dados disponibilizado pelo Kaggle apresenta grande parte das variáveis que sabe-se compõe o preço de venda de uma residencia.
   Essas caracteristicas fazem com que esse processo seja um excelente candidato a técnicas de machine learning e por isso será objetivo deste trabalho embora seja preciso destacar que pretende-se aqui apenas demonstrar um exemplo de utilização de machine learning para esse fim pois ainda que seja possível treinar modelos de machine learning capazes de precificar um ativo,na prática,isto é em situações reais,a automatização completa de um processo como esses não é uma tarefa simples e necessitaria de conjunto de dados geograficamente diversificado e constantemente atualizado.
   
   
