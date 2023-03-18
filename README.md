@@ -1,5 +1,5 @@
 
-# Machine Learning para previsão de preços de Residencias utilizando o BigQuery
+# Machine Learning para previsão de preços de residencias utilizando o BigQuery
 
 `CURSO: Banco de dados`
 
