@@ -28,7 +28,7 @@
 | Etapa         | Atividades |
 |  :----:   | ----------- |
 | ETAPA 1         |[Documentação de Contexto](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md) <br> |
-| ETAPA 2         |[Processo de Coleta de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/main/README.md) <br> [Arquivos utilizados]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md)) <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
+| ETAPA 2         |[Processo de Coleta de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/main/README.md) <br> [Modelo de dados inicial]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md)) <br> [Arquivos utilizados]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md)) <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
 | ETAPA 3         |[Pré-processamento de dados]() |
 | ETAPA 4        |[Aprendizagem de máquina]() |
 | ETAPA 5         | [Análise dos resultados]() |
@@ -56,7 +56,11 @@
   Outro objetivo  do trabalho é o desenvolvimento do conhecimento da aplicação de técnicas de machine learning e da utilização de ferramentas de cloud para esse fim, assim como o desenvolvimento do conhecimento de otimização de soluções pertinentes à temática.
 
 
- 
+  
+# Descrição do processo de Coleta de dados
+
+
+# Governança de dados
 
 # Código
 
