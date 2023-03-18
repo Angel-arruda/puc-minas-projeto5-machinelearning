@@ -1,5 +1,5 @@
 
-# Prevendo preços de casa utilizando o ml no Bigquery
+# Machine Learning para previsão de preços de Residencias utilizando o BigQuery
 
 `CURSO: Banco de dados`
 
