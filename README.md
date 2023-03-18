@@ -1,7 +1,7 @@
 
 # Prevendo preços de casa utilizando o ml no Bigquery
 
-`CURSO: Banco de dados
+`CURSO: Banco de dados`
 
 `DISCIPLINA: Projeto - Arquitetura de dados em nuvem
 
@@ -25,11 +25,11 @@ Em uma empresa de exportação de café chamada Atlântica, todos os documentos 
 | Etapa         | Atividades |
 |  :----:   | ----------- |
 | ETAPA 1         |[Documentação de Contexto](docs/context.md) <br> |
-| ETAPA 2         |[Coleta de dados](docs/template.md) <br> [Dados utilizados](docs/template.md) <br> [Fonte](docs/template.md) |
+| ETAPA 2         |[Processo de Coleta de dados](docs/template.md) <br> [Dados utilizados](docs/template.md) <br> [Fonte](docs/template.md) |
 | ETAPA 3         |[Pré-processamento de dados]() |
 | ETAPA 4        |[Aprendizagem de máquina]() |
 | ETAPA 5         | [Análise dos resultados]() |
-| ETAPA 6       | [Otimizações]( |
+| ETAPA 6       | [Otimizações]() |
 
 # Código
 
