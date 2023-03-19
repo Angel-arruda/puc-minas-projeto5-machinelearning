@@ -28,7 +28,7 @@
 | Etapa         | Atividades |
 |  :----:   | ----------- |
 | ETAPA 1         |[Documentação de Contexto](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md) <br> 
-| ETAPA 2         |[Processo de Coleta de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md) <br>[Modelo de dados inicial]([https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data]) <br> [Governança de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md) <br> [Arquivos utilizados](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
+| ETAPA 2         |[Processo de Coleta de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md) <br>[Modelo de dados inicial]([https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) <br> [Governança de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md) <br> [Arquivos utilizados](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
 | ETAPA 3         |[Pré-processamento de dados]() |
 | ETAPA 4        |[Aprendizagem de máquina]() |
 | ETAPA 5         | [Análise dos resultados]() |
