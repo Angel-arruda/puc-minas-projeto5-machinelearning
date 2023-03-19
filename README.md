@@ -28,7 +28,7 @@
 | Etapa         | Atividades |
 |  :----:   | ----------- |
 | ETAPA 1         |[Documentação de Contexto](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md) <br> |
-| ETAPA 2         |[Processo de Coleta de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/main/README.md)<br> [Modelo de dados inicial]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md))  <br> [Governança de dados]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md)) <br> [Arquivos utilizados]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md)) <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
+| ETAPA 2         |[Processo de Coleta de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/main/README.md)<br> [Modelo de dados inicial]([docs/template.md](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/edit/main/README.md))  <br> [Governança de dados](https://github.com/Angel-arruda/puc-minas-projeto5-machinelearning/blob/main/README.md)) <br> [Arquivos utilizados]() <br> [Fonte](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) |
 | ETAPA 3         |[Pré-processamento de dados]() |
 | ETAPA 4        |[Aprendizagem de máquina]() |
 | ETAPA 5         | [Análise dos resultados]() |
@@ -59,8 +59,76 @@
   
 # Descrição do processo de Coleta de dados
 
+Os dados foram coletados no dia 17/03/2022 do site Kaggle em formato de arquivo zip contendo 4 arquivos distintos:
+
+train.csv - Dados de treino
+test.csv - Dados de Teste
+data_description.txt - Descrição dos dados.
+sample_submission.csv - Exemplo de retorno que o modelo deve produzir.
+
+Após a Coleta e desempacotamento dos arquivos,o total de Kb do arquivo foi 957.39 kB o mesmo sinalizado pelo site.
+
+Em seguida foi feita a etapa de retenção dos arquivos,foram criadas as tabelas correspondentes aos arquivos e inseridos os dados do arquivo train.csv,que será utilizado na próxima etapa e do test.csv. Cada uma das tabelas contém a estrutura do arquivo e a descrição dos campos retirada do arquivo "data_description"
 
 # Governança de dados
+
+
+Requisitos do projeto:
+
+Garantir a precisão dos dados,confiabilidade, integridade e segurança dos dados.
+
+Classificação de confidencialidade de dados : Públicos quanto a visualização,não há dados sensíveis e impedimentos que impliquem confidencialidade dos dados.O papel de data view do Bigquery pode ser dado a qualquer pessoa com interesse em visualizar os dados,desde que ela esteja dentro da organização.
+
+
+A)Coleta
+
+Requisitos:A coleta de dados será feita manualmente no site Kaggle,registrando-se o horário e data.Deve-se observar o tamanho do arquivo garantindo que todos os dados tenham sido baixados.
+
+Procedimentos: 
+Os dados devem ser baixados do site Kaggle no computador do analista de dados em pasta correspondente.
+
+Funções : Analista de dados - Responsabilidades:Baixar os dados no Site kaggle,garantindo a correta coleta de dados e completude dos arquivos.
+
+B)Retenção
+
+Requisitos:A retenção dos dados será feita no Bigquery,em uma tabela contendo os dados originais que deve ser mantida até o fim do projeto.
+
+Procedimentos: 
+Os dados devem ser inseridos no Bigquery a partir da criação de uma tabela baseada em arquivo CSV.Deve-se garantir que todas as colunas do arquivo sejam corretamente configuradas no Bigquery.A descrição de cada campo deve ser inserida como "Description" no Bigquery no momento de criação da tabela.
+
+Funções : Analista de dados - Responsabilidades:Criar a tabela na ferramenta e inserir os arquivos CSV.
+
+
+c)Processamento
+
+Requisitos:O processamento deve ser feito no Bigquery,mantendo-se os dados manipulados em tabela separada dos dados originais porém no mesmo dataset.Deve ser mantido o histórico de processamento em uma query salva.Com o objetivo que o processo seja reproduzivel.
+
+Procedimentos: Deve ser criada uma tabela com o mesmo nome da original contendo o final "Trusted",os dados devem ser copiados da tabela original para esta tabela e manipulados via SQL.Todas as querys feitas nestes dados devem ser salvas dentro do próprio Bigquery (A ferramenta faz isso automaticamente porém em conjunto o analista deve clicar em "Salvar query"e descrever o passo que foi executado.
+
+Funções : Analista de dados - Responsabilidade: Fazer o tratamento e processamento dos dados,mantendo o histórico manual das querys conforme descrito acima.
+
+D)compartilhamento 
+
+De acordo com a classificação dos dados,os dados utilizados no projeto,bem como os resultados são públicos,não havendo restrições de compartilhamento.
+
+Requisitos:O compartilhamento dos dados deve ser centralizado dentro do GCP,e feito via IAM(Identity acess managment do gcp,local aonde são centralizadas as permissões relativas as ferramentas) 
+
+Procedimentos: Deverá ser dada a permissão de visualização de dados no Dataset contendo os dados do projeto para qualquer usuário dentro da organização(requisito geral para acesso ao ambiente GCP).
+Quanto ao compartilhamento de edição dos dados: Buscando garantir a precisão e integridade dos dados,só será permitido o compartilhamento de visualização nos dados,apenas o analista de dados responsável pelo projeto tem autorização de editar os dados.
+
+Funções : Engenheiro de Cloud - Responsabilidades:Garantir o permissionamento correto e compartilhamento dos dados com usuários interessados.
+
+E)Eliminação
+
+Classificação de retenção do ciclo de vida de dados: Período fixo - Os dados serão mantidos por um período de 90 dias no Bigquery.Este período é suficiente para realização do projeto,garantindo que a utilização do GCP não implique em custos desnecessários
+
+Requisitos:O processo de eliminação dos dados do GCP deve ser automático.
+
+Procedimentos: Para garantir a correta eliminação dos dados do GCP foi definido que o Dataset será configurado com um período de eliminação automático de 90 dias.
+
+Funções : Analista de dados - Responsabilidades:Configurar o Dataset com a eliminação definita e verificar se os dados foram corretamente eliminados ao 
+fim do projeto.
+
 
 # Código
 
