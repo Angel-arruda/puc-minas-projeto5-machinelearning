@@ -134,9 +134,7 @@ fim do projeto.
 
 # Pré-processamento de dados
  
-    Nesta etapa os dados foram pré processados na ferramenta Bigquery do Gcp,a ferramenta foi escolhida em função de conhecimento prévio na utilização flexibilidade e alta performace no processamento de grandes conjuntos de dados.Na ferramenta foram realizadas as seguintes etapas:
-    
-    
+
     
     Nesta etapa os dados foram pré processados na ferramenta Bigquery do Gcp,a ferramenta foi escolhida em função de conhecimento prévio na utilização flexibilidade,a ferramente é totalmente cloud based,não sendo necessário baixar programas ou configurar infraestrutura e além disso possui precisão e alta performace no processamento de grandes conjuntos de dados.Na ferramenta foram realizadas as seguintes etapas utilizando a linguagem Sql:
     
