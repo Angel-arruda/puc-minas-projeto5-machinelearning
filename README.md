@@ -142,18 +142,17 @@ fim do projeto.
     
     
   
-
-
     Limpeza de dados: O BigQuery foi utilizado para alterar valores ausentes e valores duplicados.
     
 
     Transformação de dados: Os tipos de dados originais foram alterados com a função Cast
     
 
-    Seleção de dados: Foram selecionadas as colunas necessárias para o modelo de Machine Learning,isto é com grande influencia nos preços e qualidade nos dados e descartarta-das as colunas irrelevantes.
+    Seleção de dados: Foram selecionadas as colunas necessárias para o modelo de Machine Learning,isto é com grande influencia nos preços e qualidade nos     dados e descartarta-das as colunas irrelevantes.
     
 
     Normalização de dados: Foi feita a normalização da coluna tipo de venda.
+    
 
     Agregação de dados: Foi necessário fazer a agregação dos dados para encontrar outliers.
 
