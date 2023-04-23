@@ -130,6 +130,36 @@ Funções : Analista de dados - Responsabilidades:Configurar o Dataset com a eli
 fim do projeto.
 
 
+
+
+# Pré-processamento de dados
+ 
+    Nesta etapa os dados foram pré processados na ferramenta Bigquery do Gcp,a ferramenta foi escolhida em função de conhecimento prévio na utilização flexibilidade e alta performace no processamento de grandes conjuntos de dados.Na ferramenta foram realizadas as seguintes etapas:
+    
+    
+    
+    Nesta etapa os dados foram pré processados na ferramenta Bigquery do Gcp,a ferramenta foi escolhida em função de conhecimento prévio na utilização flexibilidade,a ferramente é totalmente cloud based,não sendo necessário baixar programas ou configurar infraestrutura e além disso possui precisão e alta performace no processamento de grandes conjuntos de dados.Na ferramenta foram realizadas as seguintes etapas utilizando a linguagem Sql:
+    
+    
+  
+
+
+    Limpeza de dados: O BigQuery foi utilizado para alterar valores ausentes e valores duplicados.
+    
+
+    Transformação de dados: Os tipos de dados originais foram alterados com a função Cast
+    
+
+    Seleção de dados: Foram selecionadas as colunas necessárias para o modelo de Machine Learning,isto é com grande influencia nos preços e qualidade nos dados e descartarta-das as colunas irrelevantes.
+    
+
+    Normalização de dados: Foi feita a normalização da coluna tipo de venda.
+
+    Agregação de dados: Foi necessário fazer a agregação dos dados para encontrar outliers.
+
+   
+
+
 # Código
 
 <li><a href=""> Código Fonte</a></li>
